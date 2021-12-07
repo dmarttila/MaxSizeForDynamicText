@@ -2,7 +2,7 @@
 //  MaxSizeForDynamicTextApp.swift
 //  MaxSizeForDynamicText
 //
-//  Created by Douglas Marttila on 12/7/21.
+//  Created by Doug Marttila on 12/7/21.
 //
 
 import SwiftUI

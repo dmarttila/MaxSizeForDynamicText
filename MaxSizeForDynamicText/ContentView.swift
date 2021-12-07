@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  MaxSizeForDynamicText
 //
-//  Created by Douglas Marttila on 12/7/21.
+//  Created by Doug Marttila on 12/7/21.
 //
 
 import SwiftUI
@@ -10,12 +10,15 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         Text("Hello, world!")
-            .padding()
+            .textStyle(TitleMaxSizeAcessibleMedium())
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+        ContentView().environment(\.sizeCategory, .accessibilityMedium)
+        ContentView().environment(\.sizeCategory, .accessibilityLarge)
+        ContentView().environment(\.sizeCategory, .accessibilityExtraLarge)
     }
 }
