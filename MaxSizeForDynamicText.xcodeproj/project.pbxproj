@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B45E4B3B29DBB826004AF35C /* ContentSizeCategoryExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45E4B3A29DBB826004AF35C /* ContentSizeCategoryExtension.swift */; };
 		B4E1DC05275F93B3001C28EF /* MaxSizeForDynamicTextApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E1DC04275F93B3001C28EF /* MaxSizeForDynamicTextApp.swift */; };
 		B4E1DC07275F93B3001C28EF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E1DC06275F93B3001C28EF /* ContentView.swift */; };
 		B4E1DC09275F93B9001C28EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4E1DC08275F93B9001C28EF /* Assets.xcassets */; };
 		B4E1DC0C275F93B9001C28EF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4E1DC0B275F93B9001C28EF /* Preview Assets.xcassets */; };
 		B4E1DC14275F93D7001C28EF /* TextModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E1DC12275F93D7001C28EF /* TextModifiers.swift */; };
-		B4E1DC15275F93D7001C28EF /* TextSizeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E1DC13275F93D7001C28EF /* TextSizeProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B45E4B3A29DBB826004AF35C /* ContentSizeCategoryExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentSizeCategoryExtension.swift; sourceTree = "<group>"; };
 		B4E1DC01275F93B3001C28EF /* MaxSizeForDynamicText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaxSizeForDynamicText.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4E1DC04275F93B3001C28EF /* MaxSizeForDynamicTextApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxSizeForDynamicTextApp.swift; sourceTree = "<group>"; };
 		B4E1DC06275F93B3001C28EF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B4E1DC08275F93B9001C28EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B4E1DC0B275F93B9001C28EF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B4E1DC12275F93D7001C28EF /* TextModifiers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextModifiers.swift; sourceTree = "<group>"; };
-		B4E1DC13275F93D7001C28EF /* TextSizeProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextSizeProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,7 @@
 				B4E1DC04275F93B3001C28EF /* MaxSizeForDynamicTextApp.swift */,
 				B4E1DC06275F93B3001C28EF /* ContentView.swift */,
 				B4E1DC12275F93D7001C28EF /* TextModifiers.swift */,
-				B4E1DC13275F93D7001C28EF /* TextSizeProtocol.swift */,
+				B45E4B3A29DBB826004AF35C /* ContentSizeCategoryExtension.swift */,
 				B4E1DC08275F93B9001C28EF /* Assets.xcassets */,
 				B4E1DC0A275F93B9001C28EF /* Preview Content */,
 			);
@@ -146,7 +146,7 @@
 				B4E1DC07275F93B3001C28EF /* ContentView.swift in Sources */,
 				B4E1DC14275F93D7001C28EF /* TextModifiers.swift in Sources */,
 				B4E1DC05275F93B3001C28EF /* MaxSizeForDynamicTextApp.swift in Sources */,
-				B4E1DC15275F93D7001C28EF /* TextSizeProtocol.swift in Sources */,
+				B45E4B3B29DBB826004AF35C /* ContentSizeCategoryExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

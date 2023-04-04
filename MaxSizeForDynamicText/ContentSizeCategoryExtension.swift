@@ -1,10 +1,9 @@
 //
-//  TextSizeProtocol.swift
-//  IntermittentFasting
+//  ContentSizeCategoryExtension.swift
+//  MaxSizeForDynamicText
 //
-//  Created by Doug Marttila on 12/6/21.
+//  Created by Doug Marttila on 4/3/23.
 //
-
 import SwiftUI
 
 extension ContentSizeCategory {
