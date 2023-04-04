@@ -7,19 +7,9 @@
 
 import SwiftUI
 
-/*
-To use, add the protocol to a TextModifier (or a view - but TextModifier seems better),
-then add @Environment(\.sizeCategory) var sizeCategory to the modifier
-then call getDeviceFontSizeSettingInt(sizeCategory: sizeCategory) from the view
-it returns an int from 1 to 12 where 1 is tiny and 12 is huge
- */
-
-protocol TextSize {
-    func getDeviceFontSizeSettingInt (sizeCategory: ContentSizeCategory) -> Int
-}
-extension TextSize {
-    func getDeviceFontSizeSettingInt (sizeCategory: ContentSizeCategory) -> Int {
-        switch sizeCategory {
+extension ContentSizeCategory {
+    var accessibilityFontSize: Int {
+        switch self {
         case .extraSmall:
             return 1
         case .small:

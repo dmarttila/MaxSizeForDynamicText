@@ -7,13 +7,13 @@
 
 import SwiftUI
 
-struct TitleMaxSizeAcessibleMedium: ViewModifier, TextSize {
+struct TitleMaxSizeAcessibleMedium: ViewModifier {
     @Environment(\.sizeCategory) var sizeCategory
     func body(content: Content) -> some View {
         content
             .foregroundColor(.red)
             .multilineTextAlignment(.center)
-            .font(getDeviceFontSizeSettingInt(sizeCategory: sizeCategory) > 8 ?
+            .font(sizeCategory.accessibilityFontSize > 8 ?
                     .system(size: 40.0) : .title)
             .lineLimit(nil)
             .fixedSize(horizontal: false, vertical: true)
